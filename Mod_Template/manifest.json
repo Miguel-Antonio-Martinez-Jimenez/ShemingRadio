@@ -1,0 +1,138 @@
+{
+    "name": "OperaGXMod",
+    "description": "Opera GX Mod",
+    "developer":
+    {
+        "name": "@DevDarkSonic"
+    },
+    "icons":
+    {
+        "001": "icon_001.png"
+    },
+    "manifest_version": 1,
+    "mod":
+    {
+        "license": "License.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "music/track_1.mp3"
+            ],
+            "browser_sounds":
+            {
+                "SWITCH_TOGGLE":
+                [
+                    "sounds/important_click.mp3"
+                ],
+                "TAB_CLOSE":
+                [
+                    "sounds/CloseTab.mp3"
+                ],
+                "TAB_INSERT":
+                [
+                    "sounds/NewTab.mp3"
+                ],
+                "HOVER":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "HOVER_UP":
+                [
+                    "sounds/hover.mp3"
+                ],
+                "CLICK":
+                [
+                    "keyboard/keyboard4.wav"
+                ],
+                "LIMITER_ON":
+                [
+                    "sounds/feature_switch_on.mp3"
+                ],
+                "LIMITER_OFF":
+                [
+                    "sounds/feature_switch_off.mp3"
+                ],
+                "IMPORTANT_CLICK":
+                [
+                    "sounds/important_click.mp3"
+                ],
+                "FEATURE_SWITCH_ON":
+                [
+                    "sounds/feature_switch_on.mp3"
+                ],
+                "FEATURE_SWITCH_OFF":
+                [
+                    "sounds/feature_switch_off.mp3"
+                ],
+                "LEVEL_UPGRADE":
+                [
+                    "sounds/NewTab.mp3"
+                ],
+                "TAB_SLASH":
+                [
+                    "sounds/CloseTab.mp3"
+                ]
+            },
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "keyboard/keyboard4.wav"
+                ],
+                "TYPING_ENTER":
+                [
+                    "keyboard/keyboard1.wav"
+                ],
+                "TYPING_SPACE":
+                [
+                    "keyboard/keyboard3.wav"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "keyboard/keyboard2.wav"
+                ]
+            },
+            "page_styles":
+            [
+                {
+                    "css":
+                    [
+                        "webmodding/opera.css"
+                    ],
+                    "matches":
+                    [
+                        "https://*.opera.com/*"
+                    ]
+                }
+            ],
+            "shaders":
+            {
+                "Cracked Screen": "shaders/cracked.txt"
+            },
+            "theme":
+            {
+                "gx_accent":
+                {
+                    "h": 90,
+                    "s": 0,
+                    "l": 60
+                },
+                "gx_secondary_base":
+                {
+                    "h": 219,
+                    "s": 3,
+                    "l": 16
+                }
+            },
+            "wallpaper":
+            {
+                "image": "wallpaper/DARK_RADIO.gif",
+                "text_color": "#FFFFFF",
+                "text_shadow": "#757575"
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.0"
+}
