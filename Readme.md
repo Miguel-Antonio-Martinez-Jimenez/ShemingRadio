@@ -33,4 +33,4 @@ Si encuentras algún problema o bug, por favor, repórtalo contáctandome direct
 Este proyecto está licenciado bajo la Licencia MIT. Para más información, consulta el archivo LICENSE.
 
 #
-# **Creado por [MiguelMartinez30 / @DevDarkSonic](https://github.com/Miguel-Antonio-Martinez-Jimenez).** ¡Gracias por usar mi Mod de Opera GX y hacer de tu experiencia de navegación algo único!
+**Creado por [MiguelMartinez30 - @DevDarkSonic](https://github.com/Miguel-Antonio-Martinez-Jimenez).** ¡Gracias por usar mi Mod de Opera GX y hacer de tu experiencia de navegación algo único!
