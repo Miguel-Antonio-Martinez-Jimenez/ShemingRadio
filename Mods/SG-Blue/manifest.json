@@ -7,7 +7,7 @@
     },
     "icons":
     {
-        "001": "icon_001.png"
+        "001": "icon_blue.png"
     },
     "manifest_version": 1,
     "mod":
@@ -114,20 +114,20 @@
             {
                 "gx_accent":
                 {
-                    "h": 90,
-                    "s": 0,
-                    "l": 60
+                    "h": 237,
+                    "s": 90,
+                    "l": 61
                 },
                 "gx_secondary_base":
                 {
-                    "h": 219,
-                    "s": 3,
-                    "l": 16
+                    "h": 0,
+                    "s": 0,
+                    "l": 11
                 }
             },
             "wallpaper":
             {
-                "image": "wallpaper/DARK_RADIO.gif",
+                "image": "wallpaper/PIXEL_ART.gif",
                 "text_color": "#FFFFFF",
                 "text_shadow": "#757575"
             }
