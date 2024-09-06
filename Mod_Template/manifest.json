@@ -9,10 +9,10 @@
     {
         "001": "icon_001.png"
     },
-    "manifest_version": 1,
+    "manifest_version": 3,
     "mod":
     {
-        "license": "License.txt",
+        "license": "license.md",
         "payload":
         {
             "background_music":
@@ -108,28 +108,55 @@
             ],
             "shaders":
             {
-                "Cracked Screen": "shaders/cracked.txt"
+                "path": "shader/cracked.txt"
             },
             "theme":
             {
-                "gx_accent":
+                "dark":
                 {
-                    "h": 90,
-                    "s": 0,
-                    "l": 60
+                    "gx_accent":
+                    {
+                        "h": 90,
+                        "s": 0,
+                        "l": 60
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 219,
+                        "s": 3,
+                        "l": 16
+                    }
                 },
-                "gx_secondary_base":
+                "light":
                 {
-                    "h": 219,
-                    "s": 3,
-                    "l": 16
+                    "gx_accent":
+                    {
+                        "h": 90,
+                        "s": 0,
+                        "l": 60
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 219,
+                        "s": 3,
+                        "l": 16
+                    }
                 }
             },
             "wallpaper":
             {
-                "image": "wallpaper/DARK_RADIO.gif",
-                "text_color": "#FFFFFF",
-                "text_shadow": "#757575"
+                "dark":
+                {  
+                    "image": "wallpaper/DARK_RADIO.gif",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "wallpaper/DARK_RADIO.gif",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                }
             }
         },
         "schema_version": 1

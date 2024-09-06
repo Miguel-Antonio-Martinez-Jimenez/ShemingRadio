@@ -9,10 +9,10 @@
     {
         "001": "icon_green.png"
     },
-    "manifest_version": 1,
+    "manifest_version": 3,
     "mod":
     {
-        "license": "License.txt",
+        "license": "license.md",
         "payload":
         {
             "background_music":
@@ -106,30 +106,57 @@
                     ]
                 }
             ],
-            "shaders":
+            "shader":
             {
-                "Cracked Screen": "shaders/cracked.txt"
+                "path": "shader/cracked.txt"
             },
             "theme":
             {
-                "gx_accent":
+                "dark":
                 {
-                    "h": 139,
-                    "s": 100,
-                    "l": 36
+                    "gx_accent":
+                    {
+                        "h": 139,
+                        "s": 100,
+                        "l": 36
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 11
+                    }
                 },
-                "gx_secondary_base":
+                "light":
                 {
-                    "h": 0,
-                    "s": 0,
-                    "l": 11
+                    "gx_accent":
+                    {
+                        "h": 139,
+                        "s": 100,
+                        "l": 36
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 11
+                    }
                 }
             },
             "wallpaper":
             {
-                "image": "wallpaper/PIXEL_AE86.gif",
-                "text_color": "#FFFFFF",
-                "text_shadow": "#757575"
+                "dark":
+                { 
+                    "image": "wallpaper/PIXEL_ART.gif",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                { 
+                    "image": "wallpaper/PIXEL_ART.gif",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                }
             }
         },
         "schema_version": 1
